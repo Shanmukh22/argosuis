@@ -1,0 +1,2 @@
+module ArgosuiHelper
+end
