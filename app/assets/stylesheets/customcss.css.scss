@@ -1,0 +1,103 @@
+/* Sidebar */
+#sidebar-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: black;
+    
+    opacity: 0.9;
+    top: 10;
+}
+
+/* Always take up entire screen */
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    
+    height: 50%;
+    top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;       
+  margin: auto; 
+    
+}
+
+
+
+#navbar{
+     width: 100%;
+    position: absolute;
+    padding: 15px;
+    margin : 0 ;
+    
+    
+}
+
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+#wrapper.menuDisplayed #navwrapper {
+    padding-left: 250px;
+}
+
+/* Change with of sidebar from 0 to 250px */
+#wrapper.menuDisplayed #sidebar-wrapper {
+    width: 250px;
+}
+
+/* Since we added left padding, we need to shrink the width by 250px */
+#wrapper.menuDisplayed #page-content-wrapper {
+    padding-left: 250px;
+}
+#page-content-wrapper li a{
+    color: white;
+}
+
+/* Sidebar styling - the entire ul list */
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+/*color of the scroll in side bar*/ 
+.sidebar-nav li a:hover {
+    background: blue;
+}
+
+#image {
+  position: fixed; 
+  top: -50%; 
+  left: -50%;    
+  width: 200%; 
+  height: 200%;
+   padding-top: 150px;
+  
+}
+        
+ #image {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;       
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+   padding-top: 150px;
+  
+}

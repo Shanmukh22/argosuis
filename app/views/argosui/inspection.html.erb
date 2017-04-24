@@ -1,2 +1,105 @@
-<h1>Argosui#inspection</h1>
-<p>Find me in app/views/argosui/inspection.html.erb</p>
+   <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="container">
+    
+    <div class="Start">
+         <div class="row">
+          
+    <div class="col-md-4">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="email" type="text" maxlength="8"style="width: 2x"class="form-control" name="email" placeholder="User Name">
+        </div>
+     </div>
+      
+    <div class="col-md-4"> 
+      <div class="row">
+         <div class="col-lg-12">
+            <div class="btn-group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Region <span class="caret"></span></button>
+                <ul class="dropdown-menu scrollable-menu" role="menu" >
+                    <li><a href="#">DFW</a></li>
+                    <li><a href="#">Dallas</a></li>
+                    <li><a href="#">Arkansas</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                </ul>
+             </div>
+          </div>
+        </div>
+    </div>
+             
+             
+        
+    <div class="col-md-4">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-date"></i></span>
+                <input id="date" type="text" maxlength="15"style="width: 2x"class="form-control" name="date" placeholder="Date">
+        </div>
+    </div>
+    
+    
+    
+        </div>
+    </div>
+    
+    
+    
+     
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Plants</h2>
+                <div class="scrollable">
+                    <table class="table table-striped table-bordered">
+                        <thead><tr><th>State</th><th>Region</th><th>Plant Name</th></tr></thead>
+                            <tbody>
+                                  <tr><td>TX</td><td>DFW</td><td>100</td></tr>
+                                  <tr><td>TX</td><td>DFW</td><td>101</td></tr>
+                                  <tr><td>TX</td><td>Al</td><td>103</td></tr>
+                                  <tr><td>TX</td><td>Me</td><td>104</td></tr>
+                                  <tr><td>TX</td><td>Dal</td><td>105</td></tr>
+                                  <tr><td>TX</td><td>Fr</td><td>106</td></tr>
+                                  <tr><td>TX</td><td>Ir</td><td>107</td></tr>
+                                  <tr><td>TX</td><td>Fri</td><td>108</td></tr>
+                                  <tr><td>TX</td><td>Co</td><td>109</td></tr>
+                                  <tr><td>AK</td><td>NLR</td><td>110</td></tr> 
+                                  <tr><td>AK</td><td>Al</td><td>111</td></tr>
+                                  <tr><td>AK</td><td>JS</td><td>112</td></tr>
+                                  <tr><td>AK</td><td>LR</td><td>113</td></tr>
+                                  <tr><td>AK</td><td>Ben</td><td>114</td></tr>
+                                  <tr><td>AK</td><td>Ca</td><td>115</td></tr>
+                            </tbody>
+                    </table>
+                </div>
+        </div>
+                    
+        <div class="col-md-6">
+            <h2>Inspections</h2>
+                <p></p>
+                <p></p>
+         
+                <button type="button" class="btn btn-primary"><%= link_to "Daily", argosui_daily_path %></button></br>
+                <p></p>
+                <p></p>
+                <button type="button" class="btn btn-primary">Monthly</button>
+                <button type="button" class="btn btn-primary">Mthly UST Rectfr</button> 
+                <button type="button" class="btn btn-primary">Mthly  UST Spill</button>
+                <button type="button" class="btn btn-primary">Mthly Spill Logs</button></br>
+                <p></p>
+                <p></p>
+                <button type="button" class="btn btn-primary">Quarterly-Visual</button>
+                <button type="button" class="btn btn-primary">Qtr-Shop-Inspection</button>
+                
+        </div>
+    </div>
+                    
+                </div>
